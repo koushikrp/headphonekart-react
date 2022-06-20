@@ -9,9 +9,9 @@ export default function Home() {
   const images = [img1, img2, img3, img4, img5];
   return (
     <main>
-      {images.map((img) => (
-        <div className="item" key={img}>
-          <img src={img} alt="" />
+      {images.map((image) => (
+        <div className="item" key={image}>
+          <img src={image} alt="" />
         </div>
       ))}
     </main>
